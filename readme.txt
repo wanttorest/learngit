@@ -15,3 +15,11 @@ learn git order
  //if you want to back before version
  git reset --hard HEAD^
  
+//if you want to back future version
+ git reset --hard commit_id
+
+ //if you want to check the before all version
+  git log
+
+//if you want to check the future all version
+ git reflog
