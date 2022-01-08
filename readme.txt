@@ -11,3 +11,7 @@ learn git order
   
 //if you want to check the contents what you forget
  git status
+
+ //if you want to back before version
+ git reset --hard HEAD^
+ 
