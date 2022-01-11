@@ -23,3 +23,20 @@ learn git order
 
 //if you want to check the future all version
  git reflog
+
+ 添加分支
+ 
+ //创建dev分支
+ git branch dev
+ //切换分支
+ git checkout dev 或者 git switch dev
+ 
+
+ //相当于,创建并查看分支
+git checkout -b dev 或者 git switch -c dev
+
+//查看所有分支
+git checkout
+
+//删除分支
+git branch -d dev
