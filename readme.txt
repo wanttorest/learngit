@@ -36,7 +36,10 @@ learn git order
 git checkout -b dev 或者 git switch -c dev
 
 //查看所有分支
-git checkout
+git branch
+
+//合并分支
+git merge dev
 
 //删除分支
 git branch -d dev
